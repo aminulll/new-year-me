@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+   height: 100vh;
+ 
+
+   
+}
+
+/* banner styles */
+
+#hero-section{
+    height: 100vh;
+    background-image: url(../images/banner/banner2.png);
+    background-position: center center;
+    background-size: cover;}
+
+    .display-flex{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+.justify-end{
+    justify-content: flex-end;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.hero-content{
+    width: 525px;
+    text-align: right;
+}
+.btn{
+    font-weight:600;
+    font-size:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+}
+.btn-orange{
+    color: white;
+    background-color:#F15B22;
+}
+
+/* main styles */
+.container-main{
+    display: flex;
+}
+.container-left{
+    position: absolute;
+}
+.container-right{
+    position: absolute;
+    margin-top: 30px
+}
